@@ -11,10 +11,7 @@ This process utilises SQLite database files, due to restrictions on public servi
 Required assets:
 1 file SPS_Database.sqlite containing Table: "SPSData"
 
-Heading of Table required to be:
-Index = ['SPIN_Number', 'Sex', 'Birth_Date', 'Forename', 'Surname', 'Record', 'Record_Number', 'Prison_Occasions', 'Unique_Record', 'Live_Record']
-
-Columns = ['Establishment_Name', 'Prisoner_Address_Line_1','Prisoner_Address_Line_2', 'Town', 'Postcode', 'Admission_Date', 'Earliest_Date_of_Liberation', 'Liberation_Reason', 'Local_Authority', 'Date_Received']
+Run CreateBlankDatabase.py to create the template, this file can be stored elsewhere on the local network of PC, run the set variable to identify the file to the Software
 
 Run app.py where a calendar will appear on the screen. For the first occasion running this the variable and the locations will need to be set where the Database is located as it is a physical file, before proceeding.
 

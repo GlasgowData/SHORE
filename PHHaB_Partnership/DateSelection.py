@@ -156,7 +156,7 @@ class PHHaBProcessDataEntrySelection:
         panel = ctk.CTkFrame(self.window)
         panel.pack(padx=20, pady=10, fill="x")
 
-        button1 = ctk.CTkButton(panel, text="Run PHHaB Data Entry", command=self._run_data_entry)
+        button1 = ctk.CTkButton(panel, text="SHORE Data Entry", command=self._run_data_entry)
         button1.grid(row=0, column=0, padx=10, pady=10, sticky="ew")
         
         button2 = ctk.CTkButton(panel, text="Reset Variables", command=self._set_variables)
